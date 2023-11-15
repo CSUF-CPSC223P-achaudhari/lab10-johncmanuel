@@ -1,0 +1,39 @@
+*** Test01 *** FUNCTION CALL:  *** EXPECT: cart = [] *** ...
+ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.006s
+
+OK
+test_list_int (test2.Test02_ONE_ITEM.test_list_int)
+*** Test02 *** FUNCTION CALL: cart = bot_clerk(['104']) *** EXPECT: cart = [['104', 'Graph Paper']] *** ...
+ok
+
+----------------------------------------------------------------------
+Ran 1 test in 1.007s
+
+OK
+test_list_int (test3.Test03_THREE_ITEMS.test_list_int)
+*** Test03 *** FUNCTION CALL: cart = bot_clerk(['106','109','102']) *** EXPECT: cart = [['109', 'Printer Paper'], ['102', 'Pencils'], ['106', 'Staples']] *** ...
+ok
+
+----------------------------------------------------------------------
+Ran 1 test in 4.005s
+
+OK
+test_list_int (test4.Test04_FIVE_ITEMS.test_list_int)
+*** Test04 *** FUNCTION CALL: cart = bot_clerk(['103','108','102','110','106']) *** EXPECT: cart = [['108', '3 Ring Binder'],['102', 'Pencils'],['106', 'Staples'],['103', 'Pens'],['110', 'Notepad']] *** ... 
+ok
+
+----------------------------------------------------------------------
+Ran 1 test in 7.005s
+
+OK
+test_list_int (test5.Test05_TEN_ITEMS.test_list_int)
+*** Test05 *** FUNCTION CALL: cart = bot_clerk(['106','102','108','109','103','101','110','104','107','105']) *** EXPECT: cart = [['108', '3 Ring Binder'], ['102', 'Pencils'], ['101', 'Notebook Paper'], ['106', 'Staples'], ['109', 'Printer Paper'], ['110', 'Notepad'], ['105', 'Paper Clips'], ['103', 'Pens'], ['104', 'Graph Paper'], ['107', 'Stapler']] *** ... 
+ok
+
+----------------------------------------------------------------------
+Ran 1 test in 10.007s
+
+OK
